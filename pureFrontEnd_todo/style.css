@@ -1,0 +1,36 @@
+:root{
+    --background:#1f2335 ;
+    --primary-color:#292e42 ;
+    --secondary-color:#414868 ;
+    --accent-color:#4fd6be;
+    --text-color:#c0caf5 ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16pt;
+    color: var(--text-color);
+}
+
+body{
+    min-height: 100vh;
+    padding:10px;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--accent-color);
+}
